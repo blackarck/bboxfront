@@ -1,4 +1,6 @@
-# Byteboxfront
+# BBox Front end
+
+This repo holds code for byte box front end application. This app assist in providing a black box for employees to contribute suggestions and ideas.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
