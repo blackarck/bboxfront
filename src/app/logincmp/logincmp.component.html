@@ -1,18 +1,27 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <body class="mat-app-background">
+
+    <mat-drawer-container>
+        <mat-sidenav opened mode="side">
     <!-- Toolbar -->
     <mat-toolbar color='primary'>
         <mat-toolbar-row color='accent'>
-            <span> TimeSheet Application</span>
+            <span class="app-title"> Suggestion Drop </span>
         </mat-toolbar-row>
     </mat-toolbar>
-
+</mat-sidenav>
 
 
     <div>
         <form [formGroup]="loginform">
             <mat-grid-list cols="2">
                 <mat-grid-tile>
-                        <p> Placeholder for image</p>
+                    <span class="material-symbols-outlined">
+                        inventory_2
+                        </span>
                 </mat-grid-tile>
 
 
@@ -23,10 +32,12 @@
                         
                        
                          
-                        <button mat-raised-button color="primary" (click)="googlogin()" class="googlebtn">Google login</button>
+                        <button mat-raised-button color="primary" (click)="googlogin()" class="googlebtn"><span class="material-icons">
+                            login
+                            </span>Google login</button>
                         <div class="forgotpwd">
                             <!--<button mat-button color="primary" [routerLink]="['/register']">register</button>-->
-                            <button mat-button color="primary" (click)="register()">Sign up</button>
+                            <button mat-button color="accent" (click)="register()">Sign up</button>
                            </div>
                     </div>
                 </mat-grid-tile>
@@ -35,4 +46,5 @@
         </form>
     </div>
 
-</body>
+
+</mat-drawer-container></body>

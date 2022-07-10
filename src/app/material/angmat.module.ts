@@ -12,6 +12,9 @@ import {MatCardModule} from '@angular/material/card';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatTableModule} from '@angular/material/table';
 import {MatSelectModule} from '@angular/material/select';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatSliderModule} from '@angular/material/slider';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 @NgModule({
     imports: [
         FormsModule,
@@ -26,8 +29,10 @@ import {MatSelectModule} from '@angular/material/select';
         MatCardModule,
         MatDialogModule,
         MatTableModule,
-        MatSelectModule
-
+        MatSelectModule,
+        MatSidenavModule,
+        MatSliderModule,
+        MatSlideToggleModule,
     ],
     exports:[
         FormsModule,
@@ -42,7 +47,10 @@ import {MatSelectModule} from '@angular/material/select';
         MatCardModule,
         MatDialogModule,
         MatTableModule,
-        MatSelectModule
+        MatSelectModule,
+        MatSidenavModule,
+        MatSliderModule,
+        MatSlideToggleModule,
     ]
 })
 
