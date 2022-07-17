@@ -6,6 +6,7 @@ import { environment } from '../../environments/environment';
 import {AuthService} from '../auth/auth.service';
 import {MatDialog} from '@angular/material/dialog';
 
+
 @Component({
   selector: 'app-logincmp',
   templateUrl: './logincmp.component.html',
@@ -31,6 +32,11 @@ export class LogincmpComponent implements OnInit {
 
   googlogin(){
     this.a.doGoogleLogin();
+    
+  }//end of googlogin
+
+  mslogin(){
+    this.a.doMSLogin();
     
   }//end of googlogin
 

@@ -3,6 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  APIEndpoint : "",
   firebase: {
     projectId: 'sugdrop',
     appId: '1:79660027521:web:f09a48c81e04322add8780',

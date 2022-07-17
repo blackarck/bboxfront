@@ -19,6 +19,7 @@ import { SETTINGS as AUTH_SETTINGS } from '@angular/fire/compat/auth';
 import { HttpClientModule } from '@angular/common/http';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+import { RegistoptdlgComponent } from './logincmp/registoptdlg/registoptdlg.component';
  
 
 @NgModule({
@@ -28,7 +29,8 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
     LogincmpComponent,
     RegisterComponent,
     RegpasscmpComponent,
-    UserdtlcmpComponent
+    UserdtlcmpComponent,
+    RegistoptdlgComponent
   ],
   imports: [
     BrowserModule,
